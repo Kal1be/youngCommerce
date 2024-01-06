@@ -42,7 +42,7 @@ function Navbar() {
       transition={{duration:1}}
       whileInView={{opacity:1}} className="border lg:w-[70%] w-[100%] p-1 my-4 lg:my-0 rounded-full flex justify-between items-center bg-white" >
 <p className="navbar text-sm">Products <FontAwesomeIcon icon={faChevronDown} className="text-sm mx-1"/></p><span className="navbar">|</span>
-    <input type="text" title="find your product" className="input lg:w-[54%] outline-none " placeholder="recherche ici..."/>
+    <input type="text" title="find your product" className="input lg:w-[54%] outline-none w-[51%] " placeholder="recherche ici..."/>
     <FontAwesomeIcon icon={faCamera} className="text-gray-500 text-xl"/>
     <p className="bg-orange-500 px-2 lg:py-2 rounded-full text-white"><FontAwesomeIcon icon={faSearch} className="mx-1"/>search</p>
     </motion.div>
