@@ -1,7 +1,7 @@
 import "./navbar.scss"
 import {motion} from "framer-motion"
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronDown,faCamera,faSearch,faGlobe,faDiagnoses, faCannabis, faCouch } from "@fortawesome/free-solid-svg-icons"
+import { faChevronDown,faCamera,faSearch,faGlobe,faDiagnoses, faCouch } from "@fortawesome/free-solid-svg-icons"
 
 
 
