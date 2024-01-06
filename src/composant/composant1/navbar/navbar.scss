@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@500&family=Indie+Flower&family=Kalnia:wght@600&family=Lato:wght@300;400&family=Montserrat+Alternates:ital@1&family=Rubik+Scribble&display=swap');
+
+.my-back{
+    background-image:url("/canaper26.jpeg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+
+    .back{
+        height: 100vh;
+        background:linear-gradient(black,rgba(0, 0, 0, 0.19),rgba(0, 0, 0, 0.724)) ;
+    }
+    .text{
+        font-family: "Lato",sans-serif;
+    }
+
+    .title{
+        font-family:"Edu TAS Beginner",sans-serif ;
+    }
+}
+
+@media(max-width:756px){
+    .my-back{
+        background-image:url("/canaper26.jpeg");
+        height:63vh;
+        background-position: center;
+        background-size: cover;
+    
+        .back{
+            height: 63vh;
+        }
+    
+        .title{
+            font-family:"Edu TAS Beginner",sans-serif ;
+        }
+
+        .navbar{
+            display: none;
+        }
+    }
+}
